@@ -3,7 +3,7 @@
 # Сделайте ограничение на ввод отрицательных чисел и чисел больше 100 тысяч.
 
 MIN_LIMIT = 0
-MAX_LIMIT = 100000
+MAX_LIMIT = 100001
 user_num = None
 num_of_divs = 0
 first_div = 2
