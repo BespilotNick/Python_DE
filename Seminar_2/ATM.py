@@ -19,11 +19,7 @@ account = decimal.Decimal(0)
 count = 0
 
 while True:
-<<<<<<< HEAD
-    command = input(f'Пополнить - {CMD_DEPOSIT}, снять - {CMD_WITHDRAW}, Выйти - {CMD_EXIT}    ')
-=======
-    command = input(f'Выберите действие.\nПополнить - {CMD_DEPOSIT}, снять - {CMD_WITHDRAW}, Выйти - {CMD_EXIT}    ')
->>>>>>> 4005ca3 (ATM)
+    command = input(f'Выберите действие:\nПополнить - {CMD_DEPOSIT}, снять - {CMD_WITHDRAW}, Выйти - {CMD_EXIT}    ')
     if command == CMD_EXIT:
         print(f'Заберите Вашу карту, остаток - {account} у.е.')
         break
