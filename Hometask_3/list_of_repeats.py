@@ -7,4 +7,4 @@ test_set = set()
 for i in start_list:
     if start_list.count(i) > 1:
         test_set.add(i)
-print(list(test_set))
+print(f'В изначальном списке повторяются элемены: {list(test_set)}')
