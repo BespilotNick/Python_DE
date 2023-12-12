@@ -1,11 +1,11 @@
 
 def riddle(riddle_text: str, answers: list[str], count: int = 3) -> int:
     print(f'Отгадай загадку:\n{riddle_text}')
-    for nn in range(count):
+    for nn in range(1, count+1):
         answer = input(f'Ваш ответ:  ').capitalize()
         if answer in answers:
-            print(f'ПРАВИЛЬНО, конечно же это {answer}!')
-            print(f'Вы угадали с {nn+1}й попытки.')
+            print(f'Правильно! Конечно же это {answer}!')
+            print(f'Вы угадали с {nn}й попытки.')
             return nn
         else:
             print(f'Неверно.')
