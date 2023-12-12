@@ -15,4 +15,5 @@ def riddle(riddle_text: str, answers: list[str], count: int = 3) -> int:
 riddle_text = 'Зимой и летом одним цветом.'
 answers = ['Ёлка', 'Елка', 'Ёлочка', 'Елочка', 'Ель', 'Пихта']
 
-riddle(riddle_text, answers)
+if __name__ == '__main__':
+    riddle(riddle_text, answers)
