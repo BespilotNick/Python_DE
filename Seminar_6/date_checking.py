@@ -1,4 +1,4 @@
-
+__all__ = ['check_date']
 
 def _is_not_leap(year: int) -> bool:
     return not (year % 400 == 0 or year % 100 != 0 and year % 4 == 0)

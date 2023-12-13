@@ -1,4 +1,6 @@
 
+__all__ = ['riddle', 'storage']
+
 def riddle(riddle_text: str, answers: list[str], count: int = 3) -> int:
     print(f'Отгадай загадку:\n{riddle_text}')
     for nn in range(1, count+1):

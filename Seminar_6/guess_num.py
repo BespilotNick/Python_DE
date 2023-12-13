@@ -1,4 +1,5 @@
 
+__all__ = ['guess']
 
 from random import randint
 
@@ -15,5 +16,7 @@ def guess(lower: int = 0, upper: int = 100, attempt: int = 10) -> bool:
             return  True
     print(f'Попытки закончились. Вы не угадали число.')
     return False
+
+
 if __name__ == '__main__':
     guess()
