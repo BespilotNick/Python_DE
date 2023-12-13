@@ -1,5 +1,7 @@
 __all__ = ['check_date']
 
+from sys import argv
+
 def _is_not_leap(year: int) -> bool:
     return not (year % 400 == 0 or year % 100 != 0 and year % 4 == 0)
 
@@ -15,5 +17,12 @@ def check_date(full_date: str) -> bool:
     else:
         return True
 
+# if __name__ == '__main__':
+#     print(check_date('39.02.2024'))
+
+
+'''Hometask_6:  В модуль с проверкой даты добавьте возможность запуска в терминале с передачей даты на проверку. '''
+
 if __name__ == '__main__':
-    print(check_date('39.02.2024'))
+    param = argv[1]
+    print(check_date(param))
