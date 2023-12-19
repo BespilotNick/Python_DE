@@ -1,4 +1,7 @@
 
+__all__ = ['generate_file']
+
+
 from task_4 import create_file
 
 
