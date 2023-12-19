@@ -35,7 +35,7 @@ def group_renaming(new_name: str = 'new_name', len_nn: int = 3, start_extension:
 
 
 if __name__ == '__main__':
-    # create_file(extension='bin', count=4)
+    # create_file(extension='bin', count=4)         # Это для проверки, вроде работает.
     # generate_file('new_dir', txt=3)
     # generate_file('new_dir', bin=3)
     # generate_file('new_dir', jpg=3)
