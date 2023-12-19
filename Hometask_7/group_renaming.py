@@ -1,4 +1,4 @@
-#  Напишите функцию группового переименования файлов. Она должна:
+# Напишите функцию группового переименования файлов. Она должна:
 # a. принимать параметр желаемое конечное имя файлов. При переименовании в конце имени добавляется порядковый номер.
 # b. принимать параметр количество цифр в порядковом номере.
 # c. принимать параметр расширение исходного файла.
@@ -11,7 +11,7 @@
 
 __all__ = ['group_renaming']
 
-from Seminar_7.task_6 import generate_file
+from Seminar_7.task_6 import generate_file, create_file
 import os
 from pathlib import Path
 
@@ -19,28 +19,24 @@ from pathlib import Path
 def group_renaming(new_name: str = 'new_name', len_nn: int = 3, start_extension: str = 'bin',
                    final_extension: str = 'txt', range_orig_name: tuple = (0, 5)) -> None:
     nn = 1
+    print(os.listdir())
     for obj in os.listdir():
-        print(obj)
-        if os.path.isdir(obj):
-            os.chdir(os.getcwd())
-            if os.path.isfile(obj):
-                file_name, extension = obj.split('.')
-                if extension == start_extension:
-                    final_name = (''.join(file_name[range_orig_name[0]:range_orig_name[1]]) + new_name +
-                                  str(nn).zfill(len_nn) + '.' + final_extension)
-                    print(final_name)
-                    nn += 1
-                    print(nn)
-                    os.rename(obj, final_name)
-
-
-
+        if os.path.isfile(obj):
+            file_name, extension = obj.split('.')
+            if extension == start_extension:
+                final_name = ''.join((file_name[range_orig_name[0]:range_orig_name[1]]) + new_name +
+                                     str(nn).zfill(len_nn) + '.' + final_extension)
+                nn += 1
+                os.rename(obj, final_name)
+        elif os.path.isdir(obj):
+            os.chdir(Path(obj))
+            group_renaming()
+            os.chdir('..')
 
 
 if __name__ == '__main__':
+    # create_file(extension='bin', count=4)
     # generate_file('new_dir', txt=3)
     # generate_file('new_dir', bin=3)
     # generate_file('new_dir', jpg=3)
     group_renaming()
-
-
