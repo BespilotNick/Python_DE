@@ -9,7 +9,7 @@ def convert(file: Path) -> None:
             name, number = line.split()
             my_dict[name.title()] = float(number)
 
-    with open (f'{file.stem}.json', 'w', encoding='utf-8') as f_write:
+    with open(f'{file.stem}.json', 'w', encoding='utf-8') as f_write:
         json.dump(my_dict, f_write, indent=2, ensure_ascii=False)
 
 
