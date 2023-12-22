@@ -19,8 +19,8 @@ def traversing_directory(directory: str | Path) -> None:
     data = [["Dir", "Files"]]
     for key, value in res_dict.items():
         data.append([key, value])
-    with open('traversed_directory.csv', 'w', encoding='utf-8') as csv_f:
-        write_csv = csv.writer(csv_f, dialect='excel-tab', delimiter=',')
+    with open('traversed_directory.csv', 'w', encoding='utf-8') as fcsv_write:
+        write_csv = csv.writer(fcsv_write, dialect='excel-tab', delimiter=',')
         write_csv.writerows(data)
 
 
