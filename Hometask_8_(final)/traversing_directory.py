@@ -16,8 +16,8 @@ def traversing_directory(directory: str | Path) -> None:
     res_dict = {}
     for dir_path, dir_file, file_name in os.walk(top=directory):
         res_dict[f'DIRECTORY - {dir_path}, size = {sum(os.path.getsize(os.path.join(dir_path, name)) 
-                                                       for name in file_name)}'] = [
-            f'FILE - {i} = {os.path.getsize(os.path.abspath(dir_path + "/" + i))} byte' for i in file_name]
+                                                       for name in file_name)} byte'] = [
+            f'FILE - {i} = {os.path.getsize(os.path.join(dir_path, i))} byte' for i in file_name]
     with open('traversed_directory.json', 'w', encoding='utf-8') as fjson_write:
         json.dump(res_dict, fjson_write, indent=2, ensure_ascii=False, separators=(',', ':'))
 
