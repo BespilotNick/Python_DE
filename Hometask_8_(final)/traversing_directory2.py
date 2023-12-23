@@ -32,10 +32,13 @@ def traversing_directory(directory: Path) -> None:
 
                 if os.path.isfile(os.path.join(path, elem)):
                     type_list.append('File')
+                    size_list.append(os.path.getsize(os.path.join(path, elem)))
                 elif os.path.isdir(os.path.join(path, elem)):
                     type_list.append('Directory')
+                    size_list.append(sum(os.path.getsize(os.path.join(path, file)) for file in sub_list))
                 else:
                     type_list.append('Not a File and Not a Directory')
+                    size_list.append(os.path.getsize(os.path.join(path, elem)))
 
 
 
@@ -47,6 +50,8 @@ def traversing_directory(directory: Path) -> None:
     # print(parent_list)
     print()
     print(type_list)
+    print()
+    print(size_list)
     # size_list = list(os.path.getsize(i) for i in path_list if os.path.isfile(i)
     #         else sum(os.path.getsize(os.path.join(path, name)) for name in file_name))
     # print(size_list)
