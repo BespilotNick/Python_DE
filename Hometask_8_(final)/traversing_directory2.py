@@ -55,10 +55,14 @@ def traversing_directory(directory: Path) -> None:
     # print()
     # print(size_list)
 
-    for key, value in enumerate(zip(obj_list, parent_list, type_list, size_list), start=1):
+    headers = ['Имя объекта', 'Родительский каталог', 'Тип', 'Размер', 'Путь']
+
+    for key, value in enumerate(zip(obj_list, parent_list, type_list, size_list, path_list), start=1):
         res_dict[key] = value
 
-    print(res_dict)
+
+    for keys, values in res_dict.items():
+        print(keys, values)
 
     # with open('traversed_directory2.json', 'w', encoding='utf-8') as fjson_write:
     #     json.dump(res_dict, fjson_write, indent=2, ensure_ascii=False)
