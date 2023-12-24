@@ -26,39 +26,39 @@ def traversing_directory(directory: Path) -> None:
         for sub_list in objects:
             if isinstance(sub_list, list):
                 obj_list.extend(sub_list)
+
             for elem in sub_list:
                 path_list.append(os.path.join(path, elem))
                 parent_list.append(path)
 
                 if os.path.isfile(os.path.join(path, elem)):
                     type_list.append('File')
-                    size_list.append(os.path.getsize(os.path.join(path, elem)))
                 elif os.path.isdir(os.path.join(path, elem)):
                     type_list.append('Directory')
-                    size_list.append(sum(os.path.getsize(os.path.join(path, file)) for file in sub_list))
                 else:
                     type_list.append('Not a File and Not a Directory')
-                    size_list.append(os.path.getsize(os.path.join(path, elem)))
 
+                size_list.append(os.path.getsize(os.path.join(path, elem)))
 
+    for elt in range(len(obj_list)):
+        if type_list[elt] == 'Directory':
+            size_list[elt] += sum(os.path.getsize(path_name) for path_name in path_list
+                                if path_list[elt] in path_name)
 
-
-    print(obj_list)
-    print()
+    # print(obj_list)
+    # print()
     # print(path_list)
     # print()
     # print(parent_list)
-    print()
-    print(type_list)
-    print()
-    print(size_list)
-    # size_list = list(os.path.getsize(i) for i in path_list if os.path.isfile(i)
-    #         else sum(os.path.getsize(os.path.join(path, name)) for name in file_name))
+    # print()
+    # print(type_list)
+    # print()
     # print(size_list)
 
-    #     #     print(os.path.getsize(os.path.join(dir_path, file_name)))
-    #
-    # print(res_dict)
+    for key, value in enumerate(zip(obj_list, parent_list, type_list, size_list), start=1):
+        res_dict[key] = value
+
+    print(res_dict)
 
     # with open('traversed_directory2.json', 'w', encoding='utf-8') as fjson_write:
     #     json.dump(res_dict, fjson_write, indent=2, ensure_ascii=False)
@@ -73,8 +73,6 @@ def traversing_directory(directory: Path) -> None:
     #                                dialect='excel-tab')
     #     csv_write.writeheader()
     #     csv_write.writerow(list_rows)
-
-
 
 
 if __name__ == '__main__':
