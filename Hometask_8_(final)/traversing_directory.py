@@ -21,7 +21,7 @@ def traversing_directory(directory: str | Path) -> None:
     with open('traversed_directory.json', 'w', encoding='utf-8') as fjson_write:
         json.dump(res_dict, fjson_write, indent=2, ensure_ascii=False, separators=(',', ':'))
 
-    with open('traversed_directory.pickle', 'wb') as fpick_write:
+    with open('traversed_directory.bin', 'wb') as fpick_write:
         pickle.dump(res_dict, fpick_write)
 
     data = [["Dir", "Files"]]

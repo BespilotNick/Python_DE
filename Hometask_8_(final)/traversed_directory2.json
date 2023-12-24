@@ -1,0 +1,324 @@
+{
+  "1": {
+    "Object name": "image",
+    "Type": "Directory",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test",
+    "Size": "799 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\image"
+  },
+  "2": {
+    "Object name": "music",
+    "Type": "Directory",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test",
+    "Size": "0 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\music"
+  },
+  "3": {
+    "Object name": "new_dir",
+    "Type": "Directory",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test",
+    "Size": "53440 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir"
+  },
+  "4": {
+    "Object name": "text",
+    "Type": "Directory",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test",
+    "Size": "41912 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text"
+  },
+  "5": {
+    "Object name": "video",
+    "Type": "Directory",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test",
+    "Size": "0 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\video"
+  },
+  "6": {
+    "Object name": "fill_numbers.py",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test",
+    "Size": "490 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\fill_numbers.py"
+  },
+  "7": {
+    "Object name": "Pseudonames.py",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test",
+    "Size": "715 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\Pseudonames.py"
+  },
+  "8": {
+    "Object name": "task_3.py",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test",
+    "Size": "1206 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\task_3.py"
+  },
+  "9": {
+    "Object name": "task_4.py",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test",
+    "Size": "630 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\task_4.py"
+  },
+  "10": {
+    "Object name": "task_5.py",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test",
+    "Size": "273 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\task_5.py"
+  },
+  "11": {
+    "Object name": "task_6.py",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test",
+    "Size": "1266 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\task_6.py"
+  },
+  "12": {
+    "Object name": "jd6jl8qu90b4sleeex8f7rk_53.jpg",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\image",
+    "Size": "799 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\image\\jd6jl8qu90b4sleeex8f7rk_53.jpg"
+  },
+  "13": {
+    "Object name": "new_dir",
+    "Type": "Directory",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir",
+    "Size": "16377 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir"
+  },
+  "14": {
+    "Object name": "6ekq14k8mc4tm7.jpg",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir",
+    "Size": "380 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\6ekq14k8mc4tm7.jpg"
+  },
+  "15": {
+    "Object name": "6ou6s14lzbuuizhkzty9aqf4si9uri.bin",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir",
+    "Size": "3849 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\6ou6s14lzbuuizhkzty9aqf4si9uri.bin"
+  },
+  "16": {
+    "Object name": "dpasw8cvqcsv2xarp4kujdtv1r.bin",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir",
+    "Size": "2251 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\dpasw8cvqcsv2xarp4kujdtv1r.bin"
+  },
+  "17": {
+    "Object name": "iga6kwp98h_r_0rdgd.txt",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir",
+    "Size": "2379 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\iga6kwp98h_r_0rdgd.txt"
+  },
+  "18": {
+    "Object name": "n11nv5kx4a3wxm69kx73rg.txt",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir",
+    "Size": "3878 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\n11nv5kx4a3wxm69kx73rg.txt"
+  },
+  "19": {
+    "Object name": "pnie61_etjkj137sipjte7i0x.txt",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir",
+    "Size": "2827 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\pnie61_etjkj137sipjte7i0x.txt"
+  },
+  "20": {
+    "Object name": "px19gnhn.txt",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir",
+    "Size": "1704 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\px19gnhn.txt"
+  },
+  "21": {
+    "Object name": "serj_anm_1hxgs8uagpfnb.txt",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir",
+    "Size": "4069 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\serj_anm_1hxgs8uagpfnb.txt"
+  },
+  "22": {
+    "Object name": "ye8hm6fx4ckeltt0.bin",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir",
+    "Size": "2844 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\ye8hm6fx4ckeltt0.bin"
+  },
+  "23": {
+    "Object name": "yjb6kz1kvi4nzcsec.jpg",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir",
+    "Size": "1163 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\yjb6kz1kvi4nzcsec.jpg"
+  },
+  "24": {
+    "Object name": "ylkwq_ge18atw9s0rpt91au.jpg",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir",
+    "Size": "3527 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\ylkwq_ge18atw9s0rpt91au.jpg"
+  },
+  "25": {
+    "Object name": "new_dir",
+    "Type": "Directory",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir",
+    "Size": "6874 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir\\new_dir"
+  },
+  "26": {
+    "Object name": "39nfh75xr.txt",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir",
+    "Size": "3876 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir\\39nfh75xr.txt"
+  },
+  "27": {
+    "Object name": "u61n4_58kdtbac3bnnkxav6a8cpq.txt",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir",
+    "Size": "3552 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir\\u61n4_58kdtbac3bnnkxav6a8cpq.txt"
+  },
+  "28": {
+    "Object name": "w6jpdksx2.txt",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir",
+    "Size": "2075 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir\\w6jpdksx2.txt"
+  },
+  "29": {
+    "Object name": "new_dir",
+    "Type": "Directory",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir\\new_dir",
+    "Size": "0 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir\\new_dir\\new_dir"
+  },
+  "30": {
+    "Object name": "bry07jgv.bin",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir\\new_dir",
+    "Size": "2708 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir\\new_dir\\bry07jgv.bin"
+  },
+  "31": {
+    "Object name": "gys9ze1kevzx2acpkju.bin",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir\\new_dir",
+    "Size": "2898 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir\\new_dir\\gys9ze1kevzx2acpkju.bin"
+  },
+  "32": {
+    "Object name": "sfugpqs6760.bin",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir\\new_dir",
+    "Size": "1268 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir\\new_dir\\sfugpqs6760.bin"
+  },
+  "33": {
+    "Object name": "lfhrsm9a3mbjslchhrk32mwozi.jpg",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir\\new_dir\\new_dir",
+    "Size": "0 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir\\new_dir\\new_dir\\lfhrsm9a3mbjslchhrk32mwozi.jpg"
+  },
+  "34": {
+    "Object name": "vuf8jk1xiaaqkrexqfu71.jpg",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir\\new_dir\\new_dir",
+    "Size": "0 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir\\new_dir\\new_dir\\vuf8jk1xiaaqkrexqfu71.jpg"
+  },
+  "35": {
+    "Object name": "waqgv9qmpxo_3nnyg.jpg",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir\\new_dir\\new_dir",
+    "Size": "0 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\new_dir\\new_dir\\new_dir\\new_dir\\waqgv9qmpxo_3nnyg.jpg"
+  },
+  "36": {
+    "Object name": "51h_cwxpwgy.bin",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text",
+    "Size": "3772 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text\\51h_cwxpwgy.bin"
+  },
+  "37": {
+    "Object name": "6zzv608c5ga4lhyqx2ba.txt",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text",
+    "Size": "1842 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text\\6zzv608c5ga4lhyqx2ba.txt"
+  },
+  "38": {
+    "Object name": "c38lmmk79p6uzakmal15w69531dy3i.bin",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text",
+    "Size": "3767 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text\\c38lmmk79p6uzakmal15w69531dy3i.bin"
+  },
+  "39": {
+    "Object name": "dt5y99xi9pppl4k6qcegfw.txt",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text",
+    "Size": "3870 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text\\dt5y99xi9pppl4k6qcegfw.txt"
+  },
+  "40": {
+    "Object name": "iwrusfa0vhmmdp6bmvfhf5kd9.bin",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text",
+    "Size": "2740 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text\\iwrusfa0vhmmdp6bmvfhf5kd9.bin"
+  },
+  "41": {
+    "Object name": "md5yabg85wceqs0vnv7txt.bin",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text",
+    "Size": "2137 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text\\md5yabg85wceqs0vnv7txt.bin"
+  },
+  "42": {
+    "Object name": "names.txt",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text",
+    "Size": "916 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text\\names.txt"
+  },
+  "43": {
+    "Object name": "numbers.txt",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text",
+    "Size": "6183 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text\\numbers.txt"
+  },
+  "44": {
+    "Object name": "results.txt",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text",
+    "Size": "5124 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text\\results.txt"
+  },
+  "45": {
+    "Object name": "uyu5c1vzmbj3ci.txt",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text",
+    "Size": "1869 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text\\uyu5c1vzmbj3ci.txt"
+  },
+  "46": {
+    "Object name": "_oq3pgwgxz9936c2pj52kb.txt",
+    "Type": "File",
+    "Parent Directory": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text",
+    "Size": "1500 byte",
+    "Path": "D:\\GeekBrains\\DATA ENGINEER\\Python DE\\Hometask_8_(final)\\Copy_S_7_for_test\\text\\_oq3pgwgxz9936c2pj52kb.txt"
+  }
+}

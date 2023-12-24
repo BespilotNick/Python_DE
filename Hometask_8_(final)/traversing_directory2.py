@@ -15,7 +15,6 @@ import pickle
 
 def traversing_directory(directory: Path) -> None:
     res_dict = {}
-
     obj_list = []
     path_list = []
     parent_list = []
@@ -45,38 +44,29 @@ def traversing_directory(directory: Path) -> None:
             size_list[elt] += sum(os.path.getsize(path_name) for path_name in path_list
                                 if path_list[elt] in path_name)
 
-    # print(obj_list)
-    # print()
-    # print(path_list)
-    # print()
-    # print(parent_list)
-    # print()
-    # print(type_list)
-    # print()
-    # print(size_list)
+    for i in range(len(obj_list)):
+        res_dict[i+1] = {'Object name': obj_list[i],
+                         'Type': type_list[i],
+                         'Parent Directory': parent_list[i],
+                         'Size': f'{size_list[i]} byte',
+                         'Path': path_list[i]}
 
-    headers = ['Имя объекта', 'Родительский каталог', 'Тип', 'Размер', 'Путь']
+    with open('traversed_directory2.json', 'w', encoding='utf-8') as fjson_write:
+        json.dump(res_dict, fjson_write, indent=2, ensure_ascii=False)
 
-    for key, value in enumerate(zip(obj_list, parent_list, type_list, size_list, path_list), start=1):
-        res_dict[key] = value
+    with open('traversed_directory2.bin', 'wb') as fpick_write:
+        pickle.dump(res_dict, fpick_write)
 
-
-    for keys, values in res_dict.items():
-        print(keys, values)
-
-    # with open('traversed_directory2.json', 'w', encoding='utf-8') as fjson_write:
-    #     json.dump(res_dict, fjson_write, indent=2, ensure_ascii=False)
-    #
-    # with open('traversed_directory2.pickle', 'wb') as fpick_write:
-    #     pickle.dump(res_dict, fpick_write)
-    #
-    # list_rows = []
-    # with open('traversing_directory2.csv', 'w', newline='', encoding='utf-8') as fcsv_write:
-    #     csv_write = csv.DictWriter(fcsv_write,
-    #                                fieldnames=['Main Directory', 'Parent Directory', 'Object_name', 'Type', 'Size'],
-    #                                dialect='excel-tab')
-    #     csv_write.writeheader()
-    #     csv_write.writerow(list_rows)
+    with open('traversing_directory2.csv', 'w', newline='', encoding='utf-8') as fcsv_write:
+        csv_write = csv.DictWriter(fcsv_write,
+                                   fieldnames=['Index', 'Object name', 'Type', 'Parent Directory', 'Size', 'Path'],
+                                   dialect='excel-tab')
+        csv_write.writeheader()
+        list_rows = []
+        for index, data_dicts in res_dict.items():
+            data_dicts['Index'] = index
+            list_rows.append(data_dicts)
+        csv_write.writerows(list_rows)
 
 
 if __name__ == '__main__':
