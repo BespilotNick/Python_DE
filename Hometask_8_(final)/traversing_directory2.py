@@ -57,7 +57,7 @@ def traversing_directory(directory: Path) -> None:
     with open('traversed_directory2.bin', 'wb') as fpick_write:
         pickle.dump(res_dict, fpick_write)
 
-    with open('traversing_directory2.csv', 'w', newline='', encoding='utf-8') as fcsv_write:
+    with open('traversed_directory2.csv', 'w', newline='', encoding='utf-8') as fcsv_write:
         csv_write = csv.DictWriter(fcsv_write,
                                    fieldnames=['Index', 'Object name', 'Type', 'Parent Directory', 'Size', 'Path'],
                                    dialect='excel-tab')
